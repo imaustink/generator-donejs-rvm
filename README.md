@@ -1,0 +1,1 @@
+# generator-donejs-rvm

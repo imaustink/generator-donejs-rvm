@@ -1,0 +1,14 @@
+<script src="<%= root %>node_modules/steal/steal.js" main="can-view-autorender">
+  import React from 'react'
+  import ReactDOM from 'react-dom'
+  import { connect } from 'react-view-model'
+  import Component from '/<%= name %>'
+  import '~/styles.less'
+
+  const container = document.createElement('div')
+
+  ReactDOM.render(<Component />, container)
+
+  document.body.appendChild(container)
+</script>
+        
