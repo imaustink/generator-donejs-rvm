@@ -15,5 +15,8 @@
     "ignore": [
       "**/templates/**"
     ]
-  }
+  },
+  "keywords": [
+    "yeoman-generator"
+  ]
 }
